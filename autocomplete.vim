@@ -17,5 +17,4 @@ function! SendToFlaskServer()
     endif
 endfunction
 
-" Map the function to a key, for example F5
-nnoremap <F5> :call SendToFlaskServer()<CR>
+nnoremap <C-n> :call SendToFlaskServer()<CR>
